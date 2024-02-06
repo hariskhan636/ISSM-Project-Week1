@@ -38,3 +38,34 @@ nav {
 .hero-text {
   margin-top: 0;
 }
+
+.card {
+  padding: 20px;
+  width: 175px;
+  font-size: 12px;
+  margin-right: 20px;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+  width: 175px;
+  height: 235px;
+}
+
+.card--star {
+  height: 14px;
+  margin-right: 2px;
+}
+
+.gray {
+  color: #918e9b;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.card p {
+  margin: 0;
+}

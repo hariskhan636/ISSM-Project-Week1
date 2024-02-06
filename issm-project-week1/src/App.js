@@ -13,21 +13,15 @@ function App() {
         country={card.country}
         title={card.title}
         price={card.price}
+        openSpots={card.openSpots}
+        location={card.location}
       />
     );
   });
   return (
     <div>
       <Navbar />
-      <div
-        style={{
-          display: "flex",
-          flexdirection: "row",
-        }}
-      >
-        {cardElements}
-      </div>
-
+      <section className="card-list">{cardElements}</section>
       <Hero />
     </div>
   );

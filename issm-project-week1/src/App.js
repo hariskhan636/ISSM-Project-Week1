@@ -1,5 +1,5 @@
 import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
+import Navbar from "./layout/Navbar/Navbar";
 import Card from "./components/Card";
 import cardData from "./constants/cardData";
 function App() {

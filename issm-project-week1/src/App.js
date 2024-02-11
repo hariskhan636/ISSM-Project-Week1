@@ -1,7 +1,7 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Card from "./components/Card";
-import cardData from "./cardData";
+import cardData from "./constants/cardData";
 function App() {
   const cardElements = cardData.map((card) => {
     return <Card key={card.id} {...card} />;

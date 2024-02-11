@@ -1,6 +1,6 @@
-import person1 from "./images/person1.png";
-import wedding from "./images/wedding-photography.png";
-import bike from "./images/mountain-bike.png";
+import person1 from "../assets/images/person1.png";
+import wedding from "../assets/images/wedding-photography.png";
+import bike from "../assets/images/mountain-bike.png";
 
 export default [
   {

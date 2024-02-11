@@ -1,4 +1,4 @@
-import airbnb from "../images/airbnb-logo.png";
+import airbnb from "../assets/images/airbnb-logo.png";
 const Navbar = () => {
   return (
     <nav>

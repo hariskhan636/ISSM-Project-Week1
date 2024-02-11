@@ -1,4 +1,4 @@
-import photogrid from "../images/photo-grid.png";
+import photogrid from "../assets/images/photo-grid.png";
 const Hero = () => {
   return (
     <section className="hero">
